@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 from telebot import types
 
 load_dotenv()
-#   Украсить кнопки, добавить везде "в начало"
-#   Добавить смайлики в тексты
 telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 kinopoisk_token = os.getenv('KINOPOISK_TOKEN')
 bot = telebot.TeleBot(telegram_bot_token)

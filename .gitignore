@@ -136,4 +136,4 @@ setup.cfg
 
 .vscode/
 
-test/
+test.py
